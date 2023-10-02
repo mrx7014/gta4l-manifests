@@ -1,4 +1,4 @@
-# Manifest for building ArrowOS for gta4llte, gta4lwifi.
+# Manifest for building CrDroid for gta4llte, gta4lwifi.
 
 `gta4lwifi` is the codename for the WiFi-only variant of the Samsung Galaxy Tab A7 , with model SM-T500.
 
