@@ -7,7 +7,7 @@
 Some extremely basic instructions:
 - Make a new directory for ArrowOS sources and enter it:
 ```
-mkdir crdorid-13.0
+mkdir crdroid-13.0
 cd crdroid-13.0
 ```
 
