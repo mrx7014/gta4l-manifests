@@ -2,23 +2,23 @@
 
 `gta4lwifi` is the codename for the WiFi-only variant of the Samsung Galaxy Tab A7 , with model SM-T500.
 
-`gtaxllte` is the codename for the LTE variant of the Samsung Galaxy Tab A7, with model SM-T505, and also with SM-T505N.
+`gta4llte` is the codename for the LTE variant of the Samsung Galaxy Tab A7, with model SM-T505, and also with SM-T505N.
 
 Some extremely basic instructions:
 - Make a new directory for ArrowOS sources and enter it:
 ```
-mkdir ArrowOS-13.1
-cd ArrowOS-13.1
+mkdir crdorid-13.0
+cd crdroid-13.0
 ```
 
-- Initialize repo in this directory with the CrDroid 12.1 android repository:
+- Initialize repo in this directory with the CrDroid 13.0 android repository:
 ```
-repo init -u https://github.com/ArrowOS/android_manifest.git -b arrow-13.1
+repo init -u https://github.com/crdroidandroid/android.git -b 13.0 --git-lfs
 ```
 
 - Clone this repository to .repo/local_manifests for roomservice.xml containing the repositories needed to build for these devices:
 ```
-git clone https://github.com/mrx7014/gta4l-manifests.git -b arrow-13.1 .repo/local_manifests
+git clone https://github.com/mrx7014/gta4l-manifests.git -b crdroid-13.0 .repo/local_manifests
 ```
 
 - Sync all of the repositories in manifests (including CrDroid manifests):
@@ -29,6 +29,6 @@ repo sync  --force-sync --current-branch --no-tags --no-clone-bundle --optimized
 - Finally, build as you like.
 ```
 . build/envsetup.sh
-lunch arrow_gta4l-<build_type>
-mka otapackage
+lunch lineage_gta4l-<build_type>
+brunch gta4l
 ```
