@@ -30,5 +30,5 @@ repo sync  --force-sync --current-branch --no-tags --no-clone-bundle --optimized
 ```
 . build/envsetup.sh
 lunch lineage_gta4l-<build_type>
-brunch gta4l
+m bacon
 ```
