@@ -23,7 +23,7 @@ git clone https://github.com/mrx7014/gta4l-manifests.git -b crdroid-13.0 .repo/l
 
 - Sync all of the repositories in manifests (including CrDroid manifests):
 ```
-repo sync  --force-sync --current-branch --no-tags --no-clone-bundle --optimized-fetch --prune -j$(nproc --all)
+repo sync
 ```
 
 - Finally, build as you like.
