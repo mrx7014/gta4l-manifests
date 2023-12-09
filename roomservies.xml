@@ -2,7 +2,7 @@
 <manifest>
   
   <!-- Device tree -->
-  <project name="mrx7014/android_device_samsung_gta4l" path="device/samsung/gta4l" remote="github" revision="lineage-20" />
+  <project name="mrx7014/android_device_samsung_gta4l" path="device/samsung/gta4l" remote="github" revision="evolution_14.0" />
   <project name="mrx7014/android_device_samsung_gta4l-common" path="device/samsung/gta4l-common" remote="github" revision="lineage-20" />
 
   <!-- Vendor tree -->
