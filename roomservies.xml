@@ -2,15 +2,15 @@
 <manifest>
   
   <!-- Device tree -->
-  <project name="LineageOS/android_device_samsung_gta4l" path="device/samsung/gta4l" remote="github" revision="lineage-20" />
-  <project name="mrx7014/android_device_samsung_gta4l-common" path="device/samsung/gta4l-common" remote="github" revision="lineage-20" />
+  <project name="LineageOS/android_device_samsung_gta4l" path="device/samsung/gta4l" remote="github" revision="evolution_14.0" />
+  <project name="LineageOS/android_device_samsung_gta4l-common" path="device/samsung/gta4l-common" remote="github" revision="lineage-20" />
 
   <!-- Vendor tree -->
-  <project name="mrx7014/android_vendor_samsung_gta4l" path="vendor/samsung/gta4l" remote="github" revision="lineage-20" />
-  <project name="mrx7014/android_vendor_samsung_gta4l-common" path="vendor/samsung/gta4l-common" remote="github" revision="lineage-20" />
+  <project name="chrmhoffmann/android_vendor_samsung_gta4l" path="vendor/samsung/gta4l" remote="github" revision="lineage-20" />
+  <project name="chrmhoffmann/android_vendor_samsung_gta4l-common" path="vendor/samsung/gta4l-common" remote="github" revision="lineage-20" />
 
   <!-- Kernel source -->
-  <project name="mrx7014/android_kernel_samsung_sm6115" path="kernel/samsung/sm6115" remote="github" revision="lineage-20" />
+  <project name="chrmhoffmann/android_kernel_samsung_sm6115" path="kernel/samsung/sm6115" remote="github" revision="lineage-20" />
 
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-20" />
 </manifest>
