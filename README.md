@@ -29,6 +29,6 @@ repo sync
 - Finally, build as you like.
 ```
 . build/envsetup.sh
-lunch lineage_gta4l-<build_type>
+lunch lineage_gta4l-eng
 mka otapackage
 ```
