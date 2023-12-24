@@ -29,6 +29,6 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 - Finally, build as you like.
 ```
 . build/envsetup.sh
-lunch evolution_gta4l-userdebug
+lunch evolution_gta4l-eng
 mka evolution
 ```
